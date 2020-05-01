@@ -67,11 +67,23 @@ _civBackpacks = [
 ];
 
 _civVehicles = [
-	"LOP_CHR_Civ_Landrover",	0.9,
-	"LOP_CHR_Civ_Hatchback",	0.9,
-	"LOP_CHR_Civ_Offroad", 		0.9,
-	"LOP_CHR_Civ_UAZ_Open",		0.2,
-	"LOP_CHR_Civ_UAZ",			0.2
+    "C_Hatchback_01_sport_F",   5,
+    "C_Hatchback_01_F",         20,
+    "C_Truck_02_box_F",         3,
+    "C_Truck_02_fuel_F",        0,
+    "C_Offroad_02_unarmed_F",   10,
+    "C_Van_01_fuel_F",          0,
+    "C_Truck_02_transport_F",   3,
+    "C_Truck_02_covered_F",     3,
+    "C_Offroad_01_F",           5,
+    "C_Offroad_01_repair_F",    0,
+    "C_Quadbike_01_F",          1,
+    "C_SUV_01_F",               3,
+    "C_Van_01_transport_F",     1,
+    "C_Van_02_medevac_F",       1,
+    "C_Van_02_vehicle_F",       1,
+    "C_Van_02_service_F",       1,
+    "C_Van_02_transport_F",     1
 ];
 
 _civVehiclesOnlyNames = _civVehicles select { _x isEqualType "" };
