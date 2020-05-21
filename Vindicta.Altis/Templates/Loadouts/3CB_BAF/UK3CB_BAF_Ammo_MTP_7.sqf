@@ -34,7 +34,7 @@ private _vests = [
 this addVest selectRandom _vests;
 
 //	==== Backpack ====
-this addBackpack selectRandom "UK3CB_BAF_B_Bergen_MTP_Rifleman_XL_A";
+this addBackpack "UK3CB_BAF_B_Bergen_MTP_Rifleman_XL_A";
 
 // ==== BackPack Contents ====
 this addItemToBackpack "UK3CB_BAF_762_800Rnd_T";
