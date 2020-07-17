@@ -13,7 +13,6 @@ _array set [T_REQUIRED_ADDONS, [
 	"CUP_Creatures_Military_USArmy", //CUP Units
 	"FIR_Baseplate", //FIR AWS
 	"C7NLD", //Colt C7NLD/C8NLD Weapons
-	"bma3_bushmaster", //Bushmaster
 	"NLD_Units_Main", //NLD Units (Main addon, contains all dependencies if you sub it.)
 	"FIR_F16_F" //F16 Fighting falcon
 ]];
@@ -72,8 +71,8 @@ _veh set [T_VEH_DEFAULT, ["NLD_DST_Fennek"]];
 _veh set [T_VEH_car_unarmed, ["NLD_DST_Fennek"]];
 _veh set [T_VEH_car_armed, ["NLD_DST_VECTOR_ARMED"]];
 
-_veh set [T_VEH_MRAP_unarmed, ["NLD_DST_Fennek", "NLD_Bushmaster_unarmed"]];
-_veh set [T_VEH_MRAP_HMG, ["NLD_Bushmaster_armed", "NLD_DST_Fennek_HMG"]];
+_veh set [T_VEH_MRAP_unarmed, ["NLD_DST_Fennek"]];
+_veh set [T_VEH_MRAP_HMG, ["NLD_DST_Fennek_HMG"]];
 _veh set [T_VEH_MRAP_GMG, ["NLD_DST_Fennek_GMG"]];
 
 _veh set [T_VEH_IFV, ["NLD_Boxer_m2", "NLD_Boxer_mk19", "NLD_WLD_CV9035NL", "NLD_YPR_765"]];
