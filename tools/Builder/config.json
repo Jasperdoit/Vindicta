@@ -138,6 +138,12 @@
             "CfgMissionsEntry": "vindicta_psyfx_pht",
             "mapName": "psyfx_pht",
             "briefingName": "Vindicta - Phuoc Tuy"
+        },
+        {
+            "folder": "Vindicta.vt7",
+            "CfgMissionsEntry": "vindicta_vt7",
+            "mapName": "vt7",
+            "briefingName": "Vindicta - Virolahti"
         }
     ]
 }
